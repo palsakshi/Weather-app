@@ -12,16 +12,16 @@ body{
     min-height:100vh;
     background-size:cover;
     background-position:center;
-   overflow:hidden;
+    overflow:hidden;
 }
 .container{
     position:relative;
     width:400px;
     height:100px;
-    background:rgba(190, 184, 184, 0.1);
+    background:rgba(212, 207, 207, 0.1);
     backdrop-filter:blur(20px);
     border:2px solid rgba(255,255,255,.2);
-    border-radius:17px;
+    border-radius:18px;
     padding:18px;
     color:#fff;
     transition:height .6s ease;
@@ -38,7 +38,7 @@ body{
     position:absolute;
     left:12px;
     font-size:30px;
-    color:black;
+    color:rgb(51, 47, 47);
 }
 .search-box input{
     position:absolute;
@@ -51,12 +51,13 @@ body{
     font-size:24px;
     color:#fff;
     font-weight:530;
-    text-transform:uppercase;
+    text-transform:none;
     padding:0 45px 0 50px;
 }
 .search-box input::placeholder{
     color:#fff;
     text-transform:capitalize;
+    
 }
 .search-box button{
     position:absolute;
@@ -78,8 +79,8 @@ body{
 .weather-box, 
 .weather-details,
 .not-found{
-   overflow:hidden;
-     visibility:hidden;
+    overflow:hidden;
+    visibility:hidden;
 }
 .weather-box.active, 
 .weather-details.active,
